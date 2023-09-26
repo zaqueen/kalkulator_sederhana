@@ -1,0 +1,90 @@
+/* Tampilan Header */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Tampilan Navbar */
+nav {
+    background-color: #007acc;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Tampilan Konten */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.gambar {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 380px; /* Sesuaikan dengan posisi yang Anda inginkan */
+    left: 20px; /* Sesuaikan dengan posisi yang Anda inginkan */
+    background-color: rgba(37, 45, 116, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 60%; /* Sesuaikan dengan lebar yang Anda inginkan */
+}
+.image-text2 {
+    background-color: #2c4597; /* Warna latar belakang biru solid */
+    color: #fff;
+    padding: 5px;
+    border-radius: 1px;
+    position: absolute;
+    top: 225px;
+    left: 20px;
+    max-width: 200px; /* Sesuaikan dengan lebar maksimal yang Anda inginkan */
+}
+.image-text3 {
+    background-color: #e9df4f; /* Warna latar belakang biru solid */
+    color: #292ba5;
+    padding: 5px;
+    border-radius: 1px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    max-width: 600px; /* Sesuaikan dengan lebar maksimal yang Anda inginkan */
+}
+
+
+/* Tampilan Footer */
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
